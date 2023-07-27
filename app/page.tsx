@@ -1,13 +1,20 @@
+import Card from '@/src/components/Card'
+import Header from '@/src/components/Header'
 import Image from 'next/image'
 
 export default function Home() {
   return (
     <main>
+      <Header/>
       <h1>CARTINHAS ILHA DAS LENDAS</h1>
 
       <h2>DREAM TEAM</h2>
 
       <p>Apenas o ápice do natural, todos naturais, sem Fake Natty!</p>
+
+      <div>
+        <Card/>
+      </div>
     </main>
 
     // <main className="flex min-h-screen flex-col items-center justify-between p-24">
